@@ -37,5 +37,5 @@ echo "-----> Building runtime environment"
 mkdir -p $BUILD_DIR/.profile.d
 
 cat <<EOF > $BUILD_DIR/.profile.d/phantomjs.sh
-export PATH="$HOME/vendor/phantomjs/bin:$PATH"
+export PATH="$HOME/vendor/phantomjs/bin:\$PATH"
 EOF
